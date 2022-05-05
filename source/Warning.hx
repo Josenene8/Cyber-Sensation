@@ -45,7 +45,11 @@ class Warning extends MusicBeatState
 		txt.screenCenter();
 		add(txt);
 	}
-
+	
+                #if mobileC
+		addVirtualPad(FULL, A_B);
+		#end
+			
 	override function update(elapsed:Float)
 	{
 		if (controls.ACCEPT)
