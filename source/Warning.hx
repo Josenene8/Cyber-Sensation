@@ -44,12 +44,11 @@ class Warning extends MusicBeatState
 		txt.borderStyle = FlxTextBorderStyle.OUTLINE;
 		txt.screenCenter();
 		add(txt);
-	}
-	
-                #if mobileC
+		
+		#if mobileC
 		addVirtualPad(NONE, A_B);
-		#end
-			
+		#end	
+	}
 	override function update(elapsed:Float)
 	{
 		if (controls.ACCEPT)
