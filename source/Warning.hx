@@ -47,7 +47,7 @@ class Warning extends MusicBeatState
 	}
 	
                 #if mobileC
-		addVirtualPad(FULL, A_B);
+		addVirtualPad(NONE, A_B);
 		#end
 			
 	override function update(elapsed:Float)
