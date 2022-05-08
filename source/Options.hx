@@ -127,7 +127,7 @@ class CustomControls extends Option
 	}
 	public override function press():Bool
 	{
-		FlxG.switchState(new options.CustomControlsState());
+		FlxG.switchState(new CustomControlsState());
 		return true;
 	}
 	private override function updateDisplay():String
