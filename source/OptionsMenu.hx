@@ -63,12 +63,12 @@ class OptionsMenu extends MusicBeatState
 			new Optimization("No backgrounds, no characters, centered notes, no player 2."),
 			new BotPlay("Showcase your charts and mods with autoplay."),
 		]),
-		
+		#if mobileC
 		new OptionCategory("Mobile settings", [
 			new CustomControls("edit a control"),
 			new About("about android port")
 		])
-	];
+	];#end
 
 	public var acceptInput:Bool = true;
 
