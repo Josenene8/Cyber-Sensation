@@ -1443,9 +1443,7 @@ class PlayState extends MusicBeatState
 
 	function startCountdown():Void
 	{   
-		#if mobileC
-		mcontrols.visible = true;
-		#end
+		
 			
 		inCutscene = false;
 
