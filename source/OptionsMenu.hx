@@ -65,7 +65,7 @@ class OptionsMenu extends MusicBeatState
 		]), #if mobileC
 		new OptionCategory("Mobile settings", [
 			new CustomControls("edit a control"),
-			new About("about android port")
+		//	new About("about android port")
 		])#end
 	];
 
