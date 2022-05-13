@@ -1,4 +1,4 @@
-package;
+package options;
 
 import flixel.ui.FlxButton;
 import flixel.addons.ui.FlxUIButton;
