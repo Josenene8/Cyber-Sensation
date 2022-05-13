@@ -136,24 +136,6 @@ class CustomControls extends Option
 	}
 
 }
-class About extends Option
-{
-	public function new(desc:String)
-	{
-		super();
-		description = desc;
-	}
-	public override function press():Bool
-	{
-		FlxG.switchState(new options.AboutState());
-		return true;
-	}
-	private override function updateDisplay():String
-	{
-		return "About";
-	}
-
-}
 class DownscrollOption extends Option
 {
 	public function new(desc:String)
