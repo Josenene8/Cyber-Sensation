@@ -12,9 +12,12 @@ import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.keyboard.FlxKey;
 
 import flixel.group.FlxGroup;
-import ui.Hitbox;
-import ui.FlxVirtualPad;
+#if android
+import flixel.group.FlxGroup;
+import android.FlxHitbox;
+import android.FlxVirtualPad;
 import flixel.ui.FlxButton;
+#end
 import flixel.FlxG;
 import flixel.input.FlxInput;
 import flixel.input.actions.FlxAction;
