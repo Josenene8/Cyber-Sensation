@@ -375,7 +375,7 @@ class Controls extends FlxActionSet
 			}
 		}
 	}
-
+        #end
 
 
 	#if android
