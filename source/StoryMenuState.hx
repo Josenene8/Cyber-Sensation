@@ -197,7 +197,7 @@ class StoryMenuState extends MusicBeatState
 
 		trace("Line 165");
 		
-                #if mobileC
+                #if android
 		addVirtualPad(FULL, A_B);
 		#end
 			
