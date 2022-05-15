@@ -26,6 +26,7 @@ class OptionsMenu extends MusicBeatState
 
 	var options:Array<OptionCategory> = [
 		new OptionCategory("Gameplay", [
+			new AndroidControls(),
 			new DFJKOption(controls),
 			new DownscrollOption("Change the layout of the strumline."),
 			new GhostTapOption("Ghost Tapping is when you tap a direction and it doesn't give you a miss."),
@@ -62,11 +63,7 @@ class OptionsMenu extends MusicBeatState
 			new ShowInput("Display every single input in the score screen."),
 			new Optimization("No backgrounds, no characters, centered notes, no player 2."),
 			new BotPlay("Showcase your charts and mods with autoplay."),
-		]), #if mobileC
-		new OptionCategory("Mobile settings", [
-			new CustomControls("edit a control"),
-		//	new About("about android port")
-		])#end
+		])
 	];
 
 	public var acceptInput:Bool = true;
